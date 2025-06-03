@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{79197F9C-E6E5-4E12-A74C-F909A9D64B9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySchool.Api", "src\MySchool.Api\MySchool.Api.csproj", "{1A070AC1-64AE-4E00-B773-F4F49AC99223}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{A3F976E4-8671-4EB2-BF8E-6DA082F742B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A070AC1-64AE-4E00-B773-F4F49AC99223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A070AC1-64AE-4E00-B773-F4F49AC99223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A070AC1-64AE-4E00-B773-F4F49AC99223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A070AC1-64AE-4E00-B773-F4F49AC99223}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A070AC1-64AE-4E00-B773-F4F49AC99223} = {79197F9C-E6E5-4E12-A74C-F909A9D64B9F}
+		{A3F976E4-8671-4EB2-BF8E-6DA082F742B9} = {79197F9C-E6E5-4E12-A74C-F909A9D64B9F}
+	EndGlobalSection
+EndGlobal
